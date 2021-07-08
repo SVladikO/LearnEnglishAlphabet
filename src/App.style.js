@@ -11,7 +11,7 @@ export  const Header = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: stretch;
-    margin: 0 0 10px 0;
+    margin: 0 0 2px 0;
 `;
 
 export  const Input = styled.input`

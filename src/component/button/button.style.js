@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const ButtonTag = styled.button`
-    display: inline-block;
     font-size: 18px;
     font-weight: 600;
     padding: 12px 4px;
-    margin: 4px 2px;
+    margin: 2px;
     appearance: none;
     // background-color: #0030ff;
     color: #000;
@@ -17,9 +16,12 @@ export const ButtonTag = styled.button`
     position: relative;
     transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
     flex: 1 1 0px;
-    min-width: ${ props => props.minWidth ? props.minWidth : "20%" };
+    min-width: ${ props => props.minWidth ? props.minWidth : "30%" };
     overflow: hidden;
     -webkit-appearance: none;
     border: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
