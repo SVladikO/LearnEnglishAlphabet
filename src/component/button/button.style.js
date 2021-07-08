@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const ButtonTag = styled.button`
     display: inline-block;
-    font-family: "Roboto", "Arial", sans-serif;
     font-size: 18px;
     font-weight: 600;
     padding: 12px 4px;
-    margin: 4px;
+    margin: 4px 2px;
     appearance: none;
     // background-color: #0030ff;
     color: #000;

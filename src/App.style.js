@@ -4,6 +4,7 @@ export  const AppTag = styled.div`
     padding: 10px;
     max-width: 420px;
     margin: 0 auto;
+    font-family: "Roboto", "Arial", sans-serif;
 `;
 
 export  const Header = styled.div`
